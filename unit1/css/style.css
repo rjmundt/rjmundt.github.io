@@ -1,7 +1,24 @@
 body {
-    background-color: black;
+text-align: center;
 }
 
-h1, p {
-    color: gold;
+h1, h3 {
+font-family: Avenir, san-serif;
+text-transform: uppercase;
+text-color: #FFF;
+}
+
+h1 {
+font-weight: bold;
+background-color:green;
+color: red;
+}
+
+p {
+font-family: Avenir, san-serif;
+}
+
+p {
+color: gray;
+font-style: italic;
 }
