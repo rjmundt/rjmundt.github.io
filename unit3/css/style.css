@@ -1,16 +1,27 @@
-@import 'https://fonts.googleapis.com/css?family=Oswald';
+@import 'https://fonts.googleapis.com/css?family=Oswald|Raleway:400,700|Roboto:100';
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	color: #222;
 	font-family: Gotham, sans-serif;
 }
+h2 {
+	font-family: Raleway;
+	font-size: 2em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: red;
+	padding-bottom: .2em;
+}
+p {
+	width: 40em;
+	line-height: 2em;
+}
 section {
-	padding:5em 0;
+	padding:5em;
 }
 header > a {
 }
 nav {
-
 }
 nav a {
     display: inline-block;
@@ -18,8 +29,8 @@ nav a {
     margin-right: 20px;
     margin-left: 20px;
     text-transform: uppercase;
-    font-family: Avenir, sans-serif;
-    font-weight: light;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
     text-decoration: none;
 }
 #splash {
@@ -31,9 +42,12 @@ nav a {
 .logo {
 	color: #000;
 	text-align: left;
-	font-family: "Oswald", sans-serif;
-	font-size: 45px;
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 1em;
 	text-transform: uppercase;
+	padding-top: 2.2em;
+	text-decoration: none;
 }
 
 #slogan {
