@@ -4,16 +4,20 @@ body {
 	color: #222;
 	font-family: Gotham, sans-serif;
 }
+main{
+	margin: 15px 15%;
+	background-color: beige;
+}
 h2 {
 	font-family: Raleway;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: red;
 	padding-bottom: .2em;
 }
 p {
-	line-height: 2em;
+	line-height: 1.5em;
 }
 section {
 	padding:5em;
@@ -23,9 +27,13 @@ section {
 header > a {
 	display: inline-block;
 }
+header {
+	text-align: center;
+	background-color: #FFED74;
+}
 nav {
 	display: inline-block;
-
+	background-color: #E8C66A;
 }
 nav a {
     display: inline-block;
@@ -37,13 +45,19 @@ nav a {
     font-weight: 400;
     text-decoration: none;
 }
+#about {
+	text-align: center;
+	display: inline-block;
+	width: 78%;
+	padding: 50px;
+	background-color: grey;
+}
 #splash {
 	background: url("http://liveincontainer.com/wp-content/uploads/2015/01/ContainersofHope_061.jpg");
 	margin: 0 auto;
 	background-size: cover;
 	height:90vh;
-	width: 90%;
-	padding: 10em;
+	width: 78%;
 }
 .logo {
 	color: #000;
@@ -63,9 +77,22 @@ nav a {
 	font-weight: normal;
 }
 
-#test {
-	background-color: blue;
-	width: 400px;
+#big_botton {
+	background-color: grey;
+	width: 30%;
 	padding: 30px;
-	margin: 25px
+	margin-top: 5px;
+	display: inline-block;
+}
+footer {
+	background-color: grey;
+	width: 78%;
+	height: 150px;
+	margin: 0 auto;
+}
+article {
+	display: inline-block;
+	background-color: #E89C6C;
+	margin-top: 20px;
+	width: 100%;
 }
