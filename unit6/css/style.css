@@ -1,0 +1,150 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald|Raleway:400,700|Roboto:100';
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	color: #222;
+	font-family: Gotham, sans-serif;
+}
+main{
+	margin: 2% 11%;
+	background-color: beige;
+}
+h2 {
+	font-family: Raleway;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: red;
+	padding-bottom: .2em;
+}
+p {
+	line-height: 1.5em;
+}
+section {
+	padding:5em;
+	text-align: center
+}
+header > a {
+	display: inline-block;
+}
+header {
+	text-align: center;
+	background-color: #FFED74;
+}
+nav {
+	display: inline-block;
+	background-color: #E8C66A;
+}
+nav a:hover {
+	color: blue;
+}
+nav a {
+    display: inline-block;
+    color: grey;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+#about {
+	text-align: center;
+	display: inline-block;
+	width: 78%;
+	padding: 50px;
+	background-color: grey;
+}
+#splash {
+	background: url("http://liveincontainer.com/wp-content/uploads/2015/01/ContainersofHope_061.jpg");
+	margin: 0 auto;
+	background-size: cover;
+	height:90vh;
+	width: 78%;
+}
+.logo {
+	color: #000;
+	text-align: left;
+	display: inline-block;
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding-top: 2em;
+	padding-right: 2em;
+}
+
+#slogan {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#bottons {
+	text-decoration: none;
+}
+
+li {
+  float: left;
+  width: 30%;
+  margin: 1.5%;
+  height: 18em;
+  outline: 3px solid #222;
+  text-align: center;
+  line-height: 17em;
+  list-style-type: none;
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+}
+
+li:hover {
+	color: 
+}
+
+footer {
+	background-color: grey;
+	width: 78%;
+	height: 150px;
+	margin: 0 auto;
+	clear:both;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+    text-align: left;
+}
+
+article {
+	display: inline-block;
+	background-color: #E89C6C;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
