@@ -47,6 +47,10 @@ nav a {
     font-weight: 400;
     text-decoration: none;
 }
+
+#sq_bottons {
+	padding: 0em;
+}
 #about {
 	text-align: center;
 	display: inline-block;
@@ -83,9 +87,14 @@ nav a {
 	text-decoration: none;
 }
 
+.bottoncolumns {
+	width: 49.5%;
+	float: left;
+}
+
 li {
   float: left;
-  width: 30%;
+  width: 47%;
   margin: 1.5%;
   height: 18em;
   outline: 3px solid #222;
