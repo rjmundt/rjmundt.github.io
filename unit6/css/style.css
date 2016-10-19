@@ -48,7 +48,7 @@ nav a {
     text-decoration: none;
 }
 
-#sq_bottons {
+#sq_buttons {
 	padding: 0em;
 }
 #about {
@@ -83,13 +83,15 @@ nav a {
 	font-weight: normal;
 }
 
-#bottons {
+#buttons {
 	text-decoration: none;
 }
 
-.bottoncolumns {
+.buttoncolumns {
 	width: 49.5%;
 	float: left;
+	text-align: left;
+	padding: 15px;
 }
 
 li {
