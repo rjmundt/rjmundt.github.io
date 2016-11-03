@@ -5,7 +5,8 @@ body {
 	font-family: Gotham, sans-serif;
 }
 main{
-	margin: 2% 11%;
+	margin: 0 auto;
+	width: 78%;
 	background-color: beige;
 }
 h2 {
@@ -54,6 +55,7 @@ nav a {
 #about {
 	text-align: center;
 	display: inline-block;
+	float: none;
 	width: 78%;
 	padding: 50px;
 	background-color: grey;
@@ -61,8 +63,7 @@ nav a {
 #splash {
 	background: url("http://liveincontainer.com/wp-content/uploads/2015/01/ContainersofHope_061.jpg");
 	margin: 0 auto;
-	background-size: cover;
-	height:90vh;
+	background-size: 100%;
 	width: 78%;
 }
 .logo {
@@ -97,7 +98,7 @@ nav a {
 li {
   float: left;
   width: 47%;
-  margin: 1.5%;
+  margin: 1%;
   height: 18em;
   outline: 3px solid #222;
   text-align: center;
@@ -158,4 +159,79 @@ article {
     content: " ";
     clear: both;
     height: 0;
+}
+
+@media only screen and (max-width: 1020px) {
+nav {
+	float: none;
+	background: orange;
+}
+
+  nav a {
+    margin: 0 1.6em .75em 0;
+}
+
+.buttoncolumns {
+	width: 100%;
+	float: none;
+	text-align: left;
+	padding: .5em;
+}
+
+li {
+  float: left;
+  width: 100%;
+  margin: 1%;
+  height: 3em;
+  outline: 3px solid #222;
+  text-align: center;
+  line-height: 3em;
+  list-style-type: none;
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+}
+}
+
+@media only screen and (max-width: 890px) {
+nav {
+	float: none;
+	background: none;
+	}
+}
+
+@media only screen and (max-width: 740px) {
+nav {
+    display: block;
+	float: none;
+	background: ;
+	}
+
+	#splash {
+	background: url("http://liveincontainer.com/wp-content/uploads/2015/01/ContainersofHope_061.jpg");
+	margin: 0 auto;
+	background-size: 100%;
+	width: 100%;
+}
+
+#about {
+	text-align: center;
+	display: inline-block;
+	float: none;
+	width: 100%;
+	padding: 50px;
+	background-color: grey;
+	}
+
+	article {
+	background-color: #E89C6C;
+	margin-top: 20px;
+	width: 100%;
+}
+
+main{
+	margin: 0 auto;
+	width: 100%;
+	background-color: beige;
+}
 }
