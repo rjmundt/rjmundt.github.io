@@ -7,21 +7,74 @@ body {
 main{
 	margin: 0 auto;
 	width: 78%;
-	background-color: beige;
 }
+
+.image { 
+   position: relative; 
+   width: 100%;
+   margin-bottom: .5em;
+}
+
+h1 { 
+   position: absolute; 
+   font-size: 5em;
+   top: 5%; 
+   left: 0; 
+   width: 80%; 
+   line-height: 1.145em;
+}
+
+h1 span { 
+   color: white; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.8);
+}
+
+#featurestory {
+	color: white;
+	margin-left: 7%;
+   	text-align: left;
+   	text-decoration: none;
+}
+
+h1 span:hover {
+	background: rgba(0, 0, 0, 1);
+	color: lightgrey;
+}
+
+#featuredfirm {
+	color: lightgrey;
+	font-size: 
+	font-family: sans-serif;
+	position: absolute;
+	top: 45%; 
+	margin-left: 7%;
+	text-decoration: none; 
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#featuredfirm:hover {
+	color: grey;
+	background: rgba(0, 0, 0, 1);
+
+}
+
 h2 {
-	font-family: Raleway;
+	font-family: serif;
 	font-size: 1.5em;
 	font-weight: 400;
-	text-transform: uppercase;
-	color: red;
-	padding-bottom: .2em;
+	text-transform: none;
+	color: navy;
+	padding-bottom: .5em;
 }
+
 p {
 	line-height: 1.5em;
 }
+
 section {
-	padding:5em;
+	width: 78%
 	text-align: center
 }
 header > a {
@@ -29,43 +82,47 @@ header > a {
 }
 header {
 	text-align: center;
-	background-color: #FFED74;
 }
+
 nav {
 	display: inline-block;
-	background-color: #E8C66A;
+	background-color: white;
 }
+
 nav a:hover {
-	color: blue;
+	color: black;
 }
+
+nav a:link {
+	text-decoration: none;
+}
+
+nav a: visited {
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+}
+
 nav a {
     display: inline-block;
     color: grey;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     text-transform: uppercase;
     font-family: Raleway, sans-serif;
     font-weight: 400;
     text-decoration: none;
+
+}
+#featuretext {
+	display: inline-block;
+	text-align: left;
+	width: 78%;
+	margin-bottom: 5em;
 }
 
-#sq_buttons {
-	padding: 0em;
-}
-#about {
-	text-align: center;
-	display: inline-block;
-	float: none;
-	width: 78%;
-	padding: 50px;
-	background-color: grey;
-}
-#splash {
-	background: url("http://liveincontainer.com/wp-content/uploads/2015/01/ContainersofHope_061.jpg");
-	margin: 0 auto;
-	background-size: 100%;
-	width: 78%;
-}
 .logo {
 	color: #000;
 	text-align: left;
@@ -85,14 +142,68 @@ nav a {
 }
 
 #buttons {
-	text-decoration: none;
+	float: left;
+	width: 66%;
 }
 
-.buttoncolumns {
-	width: 49.5%;
+.middlenav {
 	float: left;
+	padding: none;
+}
+
+#headline {
+	text-decoration: none;
+	color: navy 
+}
+
+#headline:hover {
+	color: lightgrey;
+}
+
+.buttoncolumn {
+	width: 66%;
+	padding: 0px;
+}
+
+#aside {
+	width: 33.3%;
+	float: right;
 	text-align: left;
-	padding: 15px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 49%;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 49%;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 49%;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 49%;
+  opacity: 0;
+}
+
+ul.buttoncolumn li:hover span.text-content {
+  opacity: 1;
 }
 
 li {
@@ -147,9 +258,58 @@ footer {
 
 article {
 	display: inline-block;
-	background-color: #E89C6C;
 	margin-top: 20px;
 	width: 100%;
+	float: left;
+}
+
+#small1 {
+	width: 33%;
+	float: left;
+	margin-top: 3%;
+	padding-right: 1%
+}
+
+#small2 {
+	width: 34%;
+	float: left;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-top: 3%;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+
+#small3 {
+	width: 33%;
+	float: left;
+	margin-top: 3%;
+	padding-left: 1%
+}
+
+#topstory {
+	display: inline-block;
+	padding-right: 2%;
+	padding-top: 10%
+	padding-bottom: 2%;
+}
+
+#dateline {
+	text-align: left;
+	font-size: .7em;
+	color: grey;
+}
+
+#readmore {
+	color: navy;
+	text-decoration: none;
+	font-size: .7em;
+}
+
+#readmore:hover {
+	color: lightgrey;
 }
 
 .clearfix:after {
@@ -167,15 +327,8 @@ nav {
 	background: orange;
 }
 
-  nav a {
+nav a {
     margin: 0 1.6em .75em 0;
-}
-
-.buttoncolumns {
-	width: 100%;
-	float: none;
-	text-align: left;
-	padding: .5em;
 }
 
 li {
@@ -207,7 +360,7 @@ nav {
 	background: ;
 	}
 
-	#splash {
+#splash {
 	background: url("http://liveincontainer.com/wp-content/uploads/2015/01/ContainersofHope_061.jpg");
 	margin: 0 auto;
 	background-size: 100%;
@@ -223,7 +376,7 @@ nav {
 	background-color: grey;
 	}
 
-	article {
+article {
 	background-color: #E89C6C;
 	margin-top: 20px;
 	width: 100%;
@@ -233,5 +386,4 @@ main{
 	margin: 0 auto;
 	width: 100%;
 	background-color: beige;
-}
 }
